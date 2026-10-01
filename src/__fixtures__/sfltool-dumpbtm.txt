@@ -1,0 +1,167 @@
+========================
+ Records for UID -2 : FFFFEEEE-DDDD-CCCC-BBBB-AAAAFFFFFFFE
+========================
+
+ ServiceManagement migrated: true
+ LaunchServices registered: false
+
+ Items:
+
+ #1:
+                 UUID: 00000000-0000-0000-0000-000000000001
+                 Name: exampled
+       Developer Name: (null)
+                 Type: legacy daemon (0x10010)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, disallowed, notified] (0x9)
+           Identifier: 16.com.example.daemon
+                  URL: file:///Library/LaunchDaemons/com.example.daemon.plist
+      Executable Path: /usr/local/bin/exampled
+           Generation: 1
+    Parent Identifier: Unknown Developer
+
+========================
+ Records for UID 501 : 00000000-0000-0000-0000-000000000501
+========================
+
+ ServiceManagement migrated: true
+ LaunchServices registered: true
+
+ Items:
+
+ #1:
+                 UUID: 00000000-0000-0000-0000-000000000002
+                 Name: Example Launcher
+       Developer Name: Example Inc.
+      Team Identifier: ABCDE12345
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 2.com.example.launcher
+                  URL: file:///Applications/Example%20Launcher.app/
+           Generation: 4
+    Bundle Identifier: com.example.launcher
+
+ #2:
+                 UUID: 00000000-0000-0000-0000-000000000003
+                 Name: Example Suite
+       Developer Name: Example Inc.
+      Team Identifier: ABCDE12345
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 2.com.example.suite
+                  URL: file:///Applications/Example%20Suite.app/
+           Generation: 2
+    Bundle Identifier: com.example.suite
+  Embedded Item Identifiers:
+    #1: 4.com.example.suite.helper
+    #2: 16.com.example.suite.daemon
+
+ #3:
+                 UUID: 00000000-0000-0000-0000-000000000004
+                 Name: Example Suite Helper
+       Developer Name: Example Inc.
+      Team Identifier: ABCDE12345
+                 Type: login item (0x4)
+                Flags: [ sandboxed ] (0x40)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 4.com.example.suite.helper
+                  URL: Contents/Library/LoginItems/Example%20Suite%20Helper.app
+           Generation: 1
+    Bundle Identifier: com.example.suite.helper
+    Parent Identifier: 2.com.example.suite
+
+ #4:
+                 UUID: 00000000-0000-0000-0000-000000000005
+                 Name: ExampleHelperAgent
+       Developer Name: (null)
+      Team Identifier: ABCDE12345
+                 Type: agent (0x8)
+                Flags: [  ] (0)
+          Disposition: [enabled, disallowed, notified] (0x9)
+           Identifier: 8.com.example.helperagent
+                  URL: Contents/Library/LaunchAgents/com.example.helperagent.plist
+      Executable Path: Contents/MacOS/ExampleHelperAgent
+           Generation: 2
+    Parent Identifier: 2.com.example.agentapp
+
+ #5:
+                 UUID: 00000000-0000-0000-0000-000000000006
+                 Name: Old App
+       Developer Name: (null)
+                 Type: app (0x2)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: 2.com.example.old
+                  URL: file:///Applications/Old.app/
+           Generation: 1
+
+ #6:
+                 UUID: 00000000-0000-0000-0000-000000000007
+                 Name: (null)
+       Developer Name: (null)
+                 Type: developer (0x20)
+                Flags: [  ] (0)
+          Disposition: [disabled, allowed, not notified] (0x2)
+           Identifier: Example Inc.
+                  URL: (null)
+           Generation: 0
+
+ #7:
+                 UUID: 00000000-0000-0000-0000-000000000008
+                 Name: Example Preview
+       Developer Name: Example Inc.
+                 Type: quicklook (0x800)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, not notified] (0x3)
+           Identifier: 2048.com.example.preview
+                  URL: (null)
+           Generation: 1
+
+ #8:
+                 UUID: 00000000-0000-0000-0000-000000000009
+                 Name: example-sync
+       Developer Name: (null)
+                 Type: legacy agent (0x10008)
+                Flags: [ legacy ] (0x1)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.com.example.sync
+                  URL: file:///Users/example/Library/LaunchAgents/com.example.sync.plist
+      Executable Path: /usr/local/bin/example-sync
+           Generation: 1
+    Parent Identifier: Unknown Developer
+
+ #9:
+                 UUID: 00000000-0000-0000-0000-00000000000a
+                 Name: ExampleSuiteDaemon
+       Developer Name: Example Inc.
+      Team Identifier: ABCDE12345
+                 Type: daemon (0x10)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 16.com.example.suite.daemon
+                  URL: Contents/Library/LaunchDaemons/com.example.suite.daemon.plist
+      Executable Path: Contents/MacOS/ExampleSuiteDaemon
+           Generation: 1
+    Parent Identifier: 2.com.example.suite
+
+========================
+ Records for UID 502 : 00000000-0000-0000-0000-000000000502
+========================
+
+ ServiceManagement migrated: true
+ LaunchServices registered: true
+
+ Items:
+
+ #1:
+                 UUID: 00000000-0000-0000-0000-000000000010
+                 Name: Other User Helper
+       Developer Name: (null)
+                 Type: login item (0x4)
+                Flags: [  ] (0)
+          Disposition: [enabled, allowed, notified] (0xb)
+           Identifier: 4.com.example.other
+                  URL: Contents/Library/LoginItems/Other.app
+           Generation: 1
