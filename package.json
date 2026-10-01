@@ -2,7 +2,7 @@
   "type": "module",
   "name": "macos-autostart",
   "description": "List everything that starts automatically on macOS: launch agents, launch daemons, login items and cron jobs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Piotr Kowalski",
