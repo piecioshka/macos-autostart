@@ -223,20 +223,9 @@ A launch **agent** runs on behalf of a logged-in user; a launch **daemon** runs 
 
 Jobs without any of these keys start only on demand (when another process talks to them) and are not listed.
 
-## Development 🛠️
-
-```bash
-npm install
-npm start            # build and run
-npm test             # unit tests (the smoke test runs only on macOS)
-npm run coverage     # unit tests with a coverage report
-npm run lint         # ESLint
-npm run format       # Prettier over the whole repository
-```
-
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br /> Feel free to check [issues page](https://github.com/piecioshka/macos-autostart/issues/).
+Contributions, issues and feature requests are welcome!<br /> Feel free to check [issues page](https://github.com/piecioshka/macos-autostart/issues/). For how to build, test and extend the project, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
