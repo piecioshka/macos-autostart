@@ -17,6 +17,10 @@
 
 > Give a ⭐️ if this project helped you!
 
+![macos-autostart - interactive view](docs/screenshots/tui.png)
+
+![macos-autostart - table output](docs/screenshots/table.png)
+
 ## Motivation
 
 macOS starts software from half a dozen places: plist files in five launchd folders under `~/Library`, `/Library` and `/System/Library`, login items registered by apps, agents and daemons hidden inside app bundles, cron and periodic scripts. System Settings shows only part of it and without details. `macos-autostart` puts all of it in one list and tells you what runs at boot or login, what runs on a schedule, and whether it is actually running.
